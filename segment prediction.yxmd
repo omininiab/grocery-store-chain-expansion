@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>existingstoresdemographics.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresdemographics.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>newstoresdemographics.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresdemographics.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="150" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">Boosted</Value>
+          <Value name="select.target">Segment</Value>
+          <Value name="select.predictors">Store=False,Address=False,City=False,State=False,Zip=False,Type=False,Age0to9=True,Age10to17=True,Age18to24=True,Age25to29=True,Age30to39=True,Age40to49=True,Age50to64=True,Age65Plus=True,EdLTHS=True,EdHSGrad=True,EdSomeCol=True,EdAssociate=True,EdBachelor=True,EdMaster=True,EdProfSchl=True,EdDoctorate=True,HHSz1Per=True,HHSz2Per=True,HHSz3Per=True,HHSz4Per=True,HHSz5PlusPer=True,HHIncU25K=True,HHInc25Kto50K=True,HHInc50Kto75K=True,HHInc75Kto100K=True,HHInc100Kto150K=True,HHInc150Kto250K=True,HHInc250KPlus=True,PopAsian=True,PopBlack=True,PopHispanic=True,PopMulti=True,PopNativeAmer=True,PopOther=True,PopPacIsl=True,PopWhite=True,HVal0to100K=True,HVal100Kto200K=True,HVal200Kto300K=True,HVal300Kto400K=True,HVal400Kto500K=True,HVal500Kto750K=True,HVal750KPlus=True,PopDens=True,Segment=False</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">False</Value>
+          <Value name="type.continuous">True</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">False</Value>
+          <Value name="n.trees">4000</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">5</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">1</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="318" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Segment</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Address" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Zip" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Type" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age0to9" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age10to17" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age18to24" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age25to29" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age30to39" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age40to49" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age50to64" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age65Plus" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdLTHS" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdHSGrad" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdSomeCol" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdAssociate" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdBachelor" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdMaster" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdProfSchl" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="EdDoctorate" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHSz1Per" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHSz2Per" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHSz3Per" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHSz4Per" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHSz5PlusPer" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHIncU25K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc25Kto50K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc50Kto75K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc75Kto100K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc100Kto150K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc150Kto250K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HHInc250KPlus" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopAsian" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopBlack" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopHispanic" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopMulti" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopNativeAmer" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopOther" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopPacIsl" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopWhite" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal0to100K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal100Kto200K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal200Kto300K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal300Kto400K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal400Kto500K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal500Kto750K" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="HVal750KPlus" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="PopDens" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Segment_1" source="R-DATA:" type="Double" />
+            <Field name="Segment_2" source="R-DATA:" type="Double" />
+            <Field name="Segment_3" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\samue\AppData\Local\Temp\Engine_15012_29a16b68ede34f79826e3806d653975f_\Engine_7620_48bc70afa4284f9b8350d3d7e491f90d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="iif([Segment_1] = max([Segment_1], [Segment_2], [Segment_3]), 1, iif([Segment_2] = max([Segment_1], [Segment_2], [Segment_3]), 2, iif([Segment_3] = max([Segment_1], [Segment_2], [Segment_3]), 3,0)))" field="Segment" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Segment = iif([Segment_1] = max([Segment_1], [Segment_2], [Segment_3]), 1, iif([...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Type" selected="True" />
+            <SelectField field="Age0to9" selected="True" />
+            <SelectField field="Age10to17" selected="True" />
+            <SelectField field="Age18to24" selected="True" />
+            <SelectField field="Age25to29" selected="True" />
+            <SelectField field="Age30to39" selected="True" />
+            <SelectField field="Age40to49" selected="True" />
+            <SelectField field="Age50to64" selected="True" />
+            <SelectField field="Age65Plus" selected="True" />
+            <SelectField field="EdLTHS" selected="True" />
+            <SelectField field="EdHSGrad" selected="True" />
+            <SelectField field="EdSomeCol" selected="True" />
+            <SelectField field="EdAssociate" selected="True" />
+            <SelectField field="EdBachelor" selected="True" />
+            <SelectField field="EdMaster" selected="True" />
+            <SelectField field="EdProfSchl" selected="True" />
+            <SelectField field="EdDoctorate" selected="True" />
+            <SelectField field="HHSz1Per" selected="True" />
+            <SelectField field="HHSz2Per" selected="True" />
+            <SelectField field="HHSz3Per" selected="True" />
+            <SelectField field="HHSz4Per" selected="True" />
+            <SelectField field="HHSz5PlusPer" selected="True" />
+            <SelectField field="HHIncU25K" selected="True" />
+            <SelectField field="HHInc25Kto50K" selected="True" />
+            <SelectField field="HHInc50Kto75K" selected="True" />
+            <SelectField field="HHInc75Kto100K" selected="True" />
+            <SelectField field="HHInc100Kto150K" selected="True" />
+            <SelectField field="HHInc150Kto250K" selected="True" />
+            <SelectField field="HHInc250KPlus" selected="True" />
+            <SelectField field="PopAsian" selected="True" />
+            <SelectField field="PopBlack" selected="True" />
+            <SelectField field="PopHispanic" selected="True" />
+            <SelectField field="PopMulti" selected="True" />
+            <SelectField field="PopNativeAmer" selected="True" />
+            <SelectField field="PopOther" selected="True" />
+            <SelectField field="PopPacIsl" selected="True" />
+            <SelectField field="PopWhite" selected="True" />
+            <SelectField field="HVal0to100K" selected="True" />
+            <SelectField field="HVal100Kto200K" selected="True" />
+            <SelectField field="HVal200Kto300K" selected="True" />
+            <SelectField field="HVal300Kto400K" selected="True" />
+            <SelectField field="HVal400Kto500K" selected="True" />
+            <SelectField field="HVal500Kto750K" selected="True" />
+            <SelectField field="HVal750KPlus" selected="True" />
+            <SelectField field="PopDens" selected="True" />
+            <SelectField field="Segment" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="570" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Segment" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Segment - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="654" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\newstoresegments.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>newstoresegments.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Report" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>segment prediction</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
