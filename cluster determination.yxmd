@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>existingstoresinformationand2015salesdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Dry_Grocery" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Dairy" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Frozen_Food" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Meat" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Produce" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Floral" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Deli" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_Bakery" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Percent_Sales_General_Merchandise" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Store" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="False" />
+            <Field field="Type" selected="True" />
+            <Field field="Percent_Sales_Dry_Grocery" selected="True" />
+            <Field field="Percent_Sales_Dairy" selected="True" />
+            <Field field="Percent_Sales_Frozen_Food" selected="True" />
+            <Field field="Percent_Sales_Meat" selected="True" />
+            <Field field="Percent_Sales_Produce" selected="True" />
+            <Field field="Percent_Sales_Floral" selected="True" />
+            <Field field="Percent_Sales_Deli" selected="True" />
+            <Field field="Percent_Sales_Bakery" selected="True" />
+            <Field field="Percent_Sales_General_Merchandise" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="5" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="String" />
+            <Field name="Address" size="29" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="City" size="21" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="State" size="2" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="String" />
+            <Field name="Zip" size="254" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="V_String" />
+            <Field name="Type" size="8" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="String" />
+            <Field name="Percent_Sales_Dry_Grocery" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Dairy" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Frozen_Food" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Meat" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Produce" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Floral" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Deli" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_Bakery" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+            <Field name="Percent_Sales_General_Merchandise" source="File: C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresinformationand2015salesdata.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Percent_Sales_Dry_Grocery + Percent_Sales_Dairy + Percent_Sales_Frozen_Food + Percent_Sales_Meat + Percent_Sales_Produce + Percent_Sales_Floral + Percent_Sales_Deli + Percent_Sales_Bakery + Percent_Sales_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">10</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\samue\AppData\Local\Temp\Engine_13824_80b4f1a3c7f941288e2dd43105322024_\Engine_15544_af3356d351374eecb2cccca42fb0287e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model name">Store Clusters</Value>
+          <Value name="the fields">Percent_Sales_Dry_Grocery + Percent_Sales_Dairy + Percent_Sales_Frozen_Food + Percent_Sales_Meat + Percent_Sales_Produce + Percent_Sales_Floral + Percent_Sales_Deli + Percent_Sales_Bakery + Percent_Sales_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="num clus">3</Value>
+          <Value name="num seeds">10</Value>
+          <Value name="plot points">True</Value>
+          <Value name="plot centroids">False</Value>
+          <Value name="max comp">2</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\samue\AppData\Local\Temp\Engine_13824_80b4f1a3c7f941288e2dd43105322024_\Engine_15544_3dfc07191386479cb24bf3a45b9e9309_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="366" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="clus name">Segment</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Address" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Zip" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Type" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Percent_Sales_Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Dairy" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Meat" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Produce" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Floral" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Deli" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_Bakery" source="R-DATA:" type="Double" />
+            <Field name="Percent_Sales_General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Segment" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\data\existingstoresegments.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>existingstoresegments.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="426" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Segment" order="Ascending" />
+            <Field field="Store" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Segment - Ascending
+Store - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="366" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType />
+          <OutputFile>C:\Users\samue\OneDrive - Trinity Western University\MBA\Udacity-PBA\Unit 7 - Segmentation &amp; Clustering\P2 - Capstone Project\output\Segmentation Reporting.docx</OutputFile>
+          <BatchMode value="False" />
+          <DataField>Report</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Reports" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>cluster determination</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
