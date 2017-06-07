@@ -1,3 +1,4 @@
+[PDF](https://github.com/omininiab/grocery-store-chain-expansion/blob/master/Ominini_Submission%20File.pdf)
 
 # Overview of Business Problem
 
