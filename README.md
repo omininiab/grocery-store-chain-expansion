@@ -42,16 +42,6 @@ Based on the time series and decomposition plots, I decided to use an ETS MNM mo
 
 The resulting ACF and PACF plots suggested using an ARIMA 011 012 model to forecast the monthly sales for all new and existing stores. Comparing this model to the ETS model showed better in-sample accuracy for the ARIMA model, but better forecast accuracy for the ETS model. Furthermore, the ACF and PACF plots after running the ARIMA model showed that it did not capture all of the correlation in the time series.
 
-MODEL	                        IN-SAMPLE ERRORS	                            FORECAST ERRORS
-	                            RMSE	      MASE	AIC	                        RMSE	    MASE
-EXISTING STORES
-ETS MNM	                      1015013	    0.47	1089.7	                    2226513	  1.2691
-ARIMA 011 012	                622761.55	  0.2	  660.9	                      3035191	  1.8355
-
-NEW STORES
-ETS MNM	                      4560.44	    0.46	722.8	                      7355.64	  1.1481
-ARIMA 011 012	                2369.76	    0.16	427.1	                      13605.88	2.2526
-
 
 I used the ETS MNM model to forecast the 2016 produce sales for both new and existing stores and displayed them in a [Tableau dashboard](https://public.tableau.com/views/PANDFinalProject/Task3?:embed=y&:display_count=yes).
 
