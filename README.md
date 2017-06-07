@@ -38,18 +38,20 @@ For the existing stores, I aggregated the produce sales on a monthly basis from 
 
 For the new stores (with no sales data), since all of them were predicted to fall in segment 3, I filtered out the average produce sales data for all existing stores in that segment for each month in the same time range (March 2012 to December 2015). The average produce sales value was then multiplied by the number of new stores, 10. This dataset, being a subset of the earlier described dataset, also meets the criteria for a time series dataset. I also used the monthly produce sales for the year 2015 to validate the forecasting models.
 
-** time series and decomposition plots
-** ACF and PACF plots
-
 Based on the time series and decomposition plots, I decided to use an ETS MNM model to forecast the monthly sales for all the new and existing stores. Looking at the ACF and PACF plots, I decided to difference the time series seasonally to achieve stationarity; however, this was not achieved immediately. I still had to take the seasonal first difference before stationarity was achieved.
-
-** seasonal diff ts plot, seasonal first difference ts plot
-** both ACF and PACF plots
 
 The resulting ACF and PACF plots suggested using an ARIMA 011 012 model to forecast the monthly sales for all new and existing stores. Comparing this model to the ETS model showed better in-sample accuracy for the ARIMA model, but better forecast accuracy for the ETS model. Furthermore, the ACF and PACF plots after running the ARIMA model showed that it did not capture all of the correlation in the time series.
 
-** model accuracy comparisons
-** ACF and PACF plots
+MODEL	                        IN-SAMPLE ERRORS	                            FORECAST ERRORS
+	                            RMSE	      MASE	AIC	                        RMSE	    MASE
+EXISTING STORES
+ETS MNM	                      1015013	    0.47	1089.7	                    2226513	  1.2691
+ARIMA 011 012	                622761.55	  0.2	  660.9	                      3035191	  1.8355
+
+NEW STORES
+ETS MNM	                      4560.44	    0.46	722.8	                      7355.64	  1.1481
+ARIMA 011 012	                2369.76	    0.16	427.1	                      13605.88	2.2526
+
 
 I used the ETS MNM model to forecast the 2016 produce sales for both new and existing stores and displayed them in a [Tableau dashboard](https://public.tableau.com/views/PANDFinalProject/Task3?:embed=y&:display_count=yes).
 
