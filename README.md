@@ -21,5 +21,12 @@ From the plots, the median Rand and CH indices for 3 clusters is the highest, in
 <div class='tableauPlaceholder' id='viz1495603268429' style='position: relative'><noscript><a href='#'><img alt='Segmentation and Clustering ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Task1Visualizations&#47;SegmentationandClustering&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Task1Visualizations&#47;SegmentationandClustering' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;Task1Visualizations&#47;SegmentationandClustering&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>
 used multiple analytical (predictive) techniques to provide recommendations on where and how to expand. Furthermore, since products in the fresh produce category have short life spans, leading to increasing costs, I provided accurate monthly sales forecast for all stores (new and existing) for the new year.
 
+
 Tools used: Alteryx and Tabelau
+
+# Allocating New Stores to Segments
+
+The grocery store chain is opening 10 new stores at the beginning of the year. To predict which store format each of the new stores should have, a model for predicting categorical variables has to be used. Since there is no sales data for these new stores yet, I had to determine the format using each of the new store’s demographic data. After comparing the Boosted, Forest and Decision Tree models, the Boosted model had the highest overall accuracy based on in-sample (cross) validation.
+I built a [boosted] model using the demographic data of existing stores as the predictor (independent) variables and their cluster allocation as the dependent variable. Using this model, I passed the demographic data of the new stores to predict their cluster allocations. All new stores were predicted to be in cluster 3.
+
 
